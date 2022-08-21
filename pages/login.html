@@ -1,0 +1,701 @@
+<!doctype html>
+<html lang="en" >
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
+    <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- new ticker css -->
+    <link rel="stylesheet" href="../assets/css/acmeticker.css">
+    <!-- swiper css -->
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <!-- jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- sipwer js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <title>Home | </title>
+  </head>
+  <body>
+
+<!-- topbar start  -->
+<div class="topBar">
+    <div class="container">
+        <nav class="d-flex justify-content-between navbar navbar-expand-lg p-0 text-white">
+            <p class="navbar-brand m-0" href="#" style="font-family = SolaimanLipi !important; color:#fff;">বৃহস্পতি, ১৮ আগস্ট ২০২২, ৩ ভাদ্র ১৪২৯
+            </p>
+            <div class="d-flex gap-3 h-100 language">
+                <div class="d-md-block d-none mr-3 text">
+                    <p class="">কনটেন্ট<b class="px-1">৫২০১৯১</b>| মডেল কনটেন্ট<b class="px-1">৯৫৩</b>| সদস্য<b class="px-1">৬০১৪৭৪</b></p>
+                </div>
+                <div class="btn-group py-1">
+                    <a class="langBtn btn btn-sm text-black active" href="https://www.teachers.gov.bd/locale/bn"> বাংলা </a>
+                    <a class="langBtn btn btn-sm text-white " href="https://www.teachers.gov.bd/locale/en"> English </a>
+                </div>
+            </div>
+            
+        </nav>
+    </div>
+</div>
+
+<!-- top bar end -->
+
+<!-- navbar start -->
+
+<nav class="navbar navbar-expand-lg bg-white sticky-top">
+  <div class="container">
+    <div class="container-fluid d-flex p-0">
+      <div class="d-flex w-25">
+            <a class="navbar-brand m-0" href="#">
+              <img src="../assets/images/bdLogo.png" alt="" style="height: 33px">
+              <img src="../assets/images/logo.svg" alt="" style="height: 45px">
+            </a>
+               <ul class="navbar-nav p-2 ps-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle noArrow" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-align-left"></i>
+                  </a>
+                  <ul class="dropdown-menu text-start">
+                    <li>
+                      <a class="dropdown-item" href="#">
+                          <img src="../assets/images/mujib.png" alt="" style="height: 18px;width: 18px;">
+                        মুজিব শতবর্ষ
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                         <i class="fas fa-chalkboard-teacher pe-0 ps-1"></i> 
+                         আমার স্কুল
+                       </a>
+                     </li>
+                       <li>
+                      <a class="dropdown-item" href="#">
+                         <i class="fas fa-chalkboard-teacher pe-0 ps-1"></i> 
+                         আমার স্কুল
+                       </a>
+                     </li>
+                     <li>
+                      <a class="dropdown-item" href="#">
+                         <i class="fas fa-chalkboard-teacher pe-0 ps-1"></i> 
+                         আমার স্কুল
+                       </a>
+                     </li>
+                  </ul>
+                </li>
+              </ul>
+              <a href="#">
+               <img src="../assets/images/my-school.jpg" style="width: 30px;" class="h-75 img-fluid pt-1">
+              </a>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <input class="form-control me-2" type="search" placeholder="খুঁজুন ...." id='searchInput' >
+          <li class="nav-item">
+            <a class="nav-link active"   href="#"><i class="fa-solid fa-house-chimney"></i></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" >
+              কনটেন্ট
+            </a>
+            <ul class="dropdown-menu text-start">
+              <li><a class="dropdown-item" href="#">- ব্লগ</a></li>
+              <li><a class="dropdown-item" href="#">- চিত্র</a></li>
+              <li><a class="dropdown-item" href="#">- প্রেজেন্টেশন</a></li>
+              <li><a class="dropdown-item" href="#">- ভিডিও কনটেন্ট</a></li>
+              <li><a class="dropdown-item" href="#">- প্রকাশনা</a></li>
+              <li><a class="dropdown-item" href="#">- ম্যাগাজিন</a></li>
+              <li><a class="dropdown-item" href="#">- উদ্ভাবনের গল্প</a></li>
+              <li><a class="dropdown-item" href="#">- নেতৃত্বের গল্প</a></li>
+              <li><a class="dropdown-item" href="#">- বৈশ্বিক বিষয়াবলী</a></li>
+              <li><a class="dropdown-item" href="#">- শিক্ষায় অগ্রযাত্রা</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              সাধারণ শিক্ষা
+            </a>
+            <ul class="dropdown-menu text-start">
+                <li class="position-relative">
+                  <a class="dropdown-item position-relative" href="#">
+                    আবশ্যিক 
+                    <span class="subMenuArrow"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-submenu text-start">
+                    <li>
+                      <a class="dropdown-item" href="#">- আমার বাংলা বই</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- English for Today</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- প্রাথমিক গণিত</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- হিন্দু ধর্ম ও নৈতিক শিক্ষা</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- তথ্য ও যোগাযোগ প্রযুক্তি</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="position-relative">
+                  <a class="dropdown-item position-relative" href="#">
+                    বিজ্ঞান
+                    <span class="subMenuArrow"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-submenu text-start">
+                    <li>
+                      <a class="dropdown-item" href="#">- পদার্থ বিজ্ঞান</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- রসায়ন</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- জীব বিজ্ঞান</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="position-relative">
+                  <a class="dropdown-item position-relative" href="#">
+                    মানবিক
+                    <span class="subMenuArrow"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-submenu text-start">
+                    <li>
+                      <a class="dropdown-item" href="#">- কৃষি শিক্ষা</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- সমাজকর্ম</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- মনোবিজ্ঞান</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- যুক্তিবিদ্যা</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- ইসলামের ইতিহাস ও সংস্কৃতি</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="position-relative">
+                  <a class="dropdown-item position-relative" href="#">
+                    ব্যবসায় শিক্ষা
+                    <span class="subMenuArrow"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-submenu text-start">
+                    <li>
+                      <a class="dropdown-item" href="#">- ব্যবসায় সংগঠন ও ব্যবস্থাপনা ১ম পত্র  </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- ব্যবসায় সংগঠন ও ব্যবস্থাপনা ২য় পত্র </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- উৎপাদন ব্যবস্থাপনা ও বিপণন ১ম পত্র </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- উৎপাদন ব্যবস্থাপনা ও বিপণন ২য় পত্র </a>
+                    </li>
+                  </ul>
+                </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              মাদ্রাসা শিক্ষা
+            </a>
+        <ul class="dropdown-menu text-start">
+                <li class="position-relative">
+                  <a class="dropdown-item position-relative" href="#">
+                    আবশ্যিক 
+                    <span class="subMenuArrow"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-submenu text-start">
+                    <li>
+                      <a class="dropdown-item" href="#">- আমার বাংলা বই</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- English for Today</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- প্রাথমিক গণিত</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- হিন্দু ধর্ম ও নৈতিক শিক্ষা</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- তথ্য ও যোগাযোগ প্রযুক্তি</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="position-relative">
+                  <a class="dropdown-item position-relative" href="#">
+                    বিজ্ঞান
+                    <span class="subMenuArrow"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-submenu text-start">
+                    <li>
+                      <a class="dropdown-item" href="#">- পদার্থ বিজ্ঞান</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- রসায়ন</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- জীব বিজ্ঞান</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="position-relative">
+                  <a class="dropdown-item position-relative" href="#">
+                    মানবিক
+                    <span class="subMenuArrow"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-submenu text-start">
+                    <li>
+                      <a class="dropdown-item" href="#">- কৃষি শিক্ষা</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- সমাজকর্ম</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- মনোবিজ্ঞান</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- যুক্তিবিদ্যা</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- ইসলামের ইতিহাস ও সংস্কৃতি</a>
+                    </li>
+                  </ul>
+                </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              কারিগরি শিক্ষা
+            </a>
+             <ul class="dropdown-menu text-start">
+                <li class="position-relative">
+                  <a class="dropdown-item position-relative" href="#">
+                    আবশ্যিক 
+                    <span class="subMenuArrow"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-submenu text-start">
+                    <li>
+                      <a class="dropdown-item" href="#">- আমার বাংলা বই</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- English for Today</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- প্রাথমিক গণিত</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- হিন্দু ধর্ম ও নৈতিক শিক্ষা</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- তথ্য ও যোগাযোগ প্রযুক্তি</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="position-relative">
+                  <a class="dropdown-item position-relative" href="#">
+                    ঐচ্ছিক  
+                    <span class="subMenuArrow"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-submenu text-start">
+                    <li>
+                      <a class="dropdown-item" href="#">- পদার্থ বিজ্ঞান</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- রসায়ন</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- জীব বিজ্ঞান</a>
+                    </li>
+                  </ul>
+                </li>
+            </ul>
+          </li>
+        </ul>
+        <div>
+           <button class="btn btn-outline-success" type="submit">লগইন/নিবন্ধন</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- navbar end -->
+
+
+
+
+<!-- signup login form start -->
+
+
+<div class="container py-5">
+  <div class="justify-content-center row shadow">
+
+<div class="col-lg-2 col-md-2 col-sm-10 py-4 text-center px-0">
+    <div class="border p-4">
+       <div>
+         <i class="fa-user fa"></i>
+         <p class="mb-0"> লগইন করুন </p>
+       </div>
+     </div>
+    <div class="p-4">
+       <div>
+         <i class="fa fa-plus"></i>
+         <p class="mb-0"> নিবন্ধন করুন </p>
+       </div>
+     </div>
+</div>
+
+<div class="col-lg-4 col-md-4 col-sm-10 px-0" style="box-shadow: 0 0 10px rgb(0 0 0 / 50%);">
+  <div class="bg-violet py-5">
+<div>
+      <div class="bg-white logo rounded-circle" style="border: 7px solid #fff;padding: 7px;border-radius: 50%;width: 120px;height: 120px;margin: auto;margin-bottom: 20px;">
+        <img src="../assets/images/logo.svg" alt="" class="img-fluid" style="padding-top: 16px;">
+      </div>
+      <div class="text-center">
+        <h1>-স্বাগত -</h1>
+        <p>শিক্ষক বাতায়ন</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-6 col-md-6 col-sm-10">
+  <div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade  show active  " id="login" role="tabpanel" aria-labelledby="login-tab">
+    <form action="https://www.teachers.gov.bd/user_login" method="POST" class="form login-form">
+      <input type="hidden" name="_token" value="KuxG1tKRV97IntMN4EQAXHdqpRVGtsQqUaonFNok" wfd-invisible="true">
+      <input required="" title="" id="email" type="text" placeholder="ইমেইল / ইউজার আইডি" class="form-control first-input " name="email" value="" autofocus="" oninvalid="this.setCustomValidity('স্থানটি সঠিক ভাবে পুরন করুন')" oninput="setCustomValidity('')">
+      <input id="password" placeholder="পাসওয়ার্ড" type="password" class="form-control " name="password" required="" title="" autocomplete="current-password" oninvalid="this.setCustomValidity('স্থানটি সঠিক ভাবে পুরন করুন')" oninput="setCustomValidity('')">
+      <div class="btns text-center">
+        <br>
+        <a href="https://www.teachers.gov.bd/forgot_password" class="forget-btn">পাসওয়ার্ড ভুলে গেছেন?</a>
+        <br>
+        <button type="submit" class="log-icon">
+          <i class="fa fa-angle-right"></i>
+        </button>
+        <br>
+        <br>
+        <a href="#" onclick="active_box()"> আপনার কি কোন অ্যাকাউন্ট আছে? <span> নিবন্ধন করুন </span>
+        </a>
+      </div>
+    </form>
+  </div>
+  <div class="tab-pane fade " id="signup" role="tabpanel" aria-labelledby="signup-tab" wfd-invisible="true">
+    <form method="POST" action="https://www.teachers.gov.bd/register" class="form signup-form">
+      <input type="hidden" name="_token" value="KuxG1tKRV97IntMN4EQAXHdqpRVGtsQqUaonFNok" wfd-invisible="true">
+      <input type="text" id="name" name="nameeng" class="form-control first-input" placeholder="নাম" value="" required="" title="" autocomplete="nameeng" oninvalid="this.setCustomValidity('স্থানটি সঠিক ভাবে পুরন করুন')" oninput="setCustomValidity('')">
+      <input required="" title="" placeholder="ইমেইল (ইংরেজিতে)" type="email" class="form-control " name="reg_email" pattern="^(([-\w\d]+)(\.[-\w\d]+)*@([-\w\d]+)(\.[-\w\d]+)*(\.([a-zA-Z]{2,5}|[\d]{1,3})){1,2})$" value="" oninvalid="this.setCustomValidity('স্থানটি সঠিক ভাবে পুরন করুন')" oninput="setCustomValidity('')">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 padright-md">
+          <select class="custom-select" name="designation_id" id="" required="">
+            <option value=""> পদবী পছন্দ করুন </option>
+            <option value="1"> সহকারী শিক্ষক </option>
+            <option value="5"> সিনিয়র শিক্ষক </option>
+            <option value="6"> সহকারী প্রধান শিক্ষক </option>
+            <option value="7"> প্রধান শিক্ষক </option>
+            <option value="8"> প্রভাষক </option>
+            <option value="9"> সহকারী অধ্যাপক </option>
+            <option value="10"> সহযোগী অধ্যাপক </option>
+            <option value="11"> অধ্যাপক </option>
+            <option value="12"> অধ্যক্ষ </option>
+            <option value="13"> লাইব্রেরিয়ান </option>
+            <option value="14"> উপজেলা/থানা শিক্ষা অফিসার </option>
+            <option value="15"> উপজেলা মাধ্যমিক শিক্ষা অফিসার </option>
+            <option value="16"> জেলা শিক্ষা অফিসার </option>
+            <option value="17"> জেলা প্রাথমিক শিক্ষা অফিসার </option>
+            <option value="18"> সহকারী প্রোগ্রামার </option>
+            <option value="19"> উপ-পরিচালক </option>
+            <option value="20"> পরিচালক </option>
+            <option value="21"> মহাপরিচালক </option>
+            <option value="26"> ইন্সট্রাক্টর </option>
+            <option value="28"> চীফ ইন্সট্রাক্টর </option>
+            <option value="30"> ট্রেড ইন্সট্রাক্টর </option>
+            <option value="32"> ডেমোনেস্ট্রেটর </option>
+            <option value="33"> কম্পিউটার অপারেশন সুপারভাইজার </option>
+            <option value="35"> কনসালটেন্ট </option>
+            <option value="37"> সুপার </option>
+            <option value="39"> ইন্সট্রাক্টর জেনারেল </option>
+            <option value="41"> পিটিআই সুপার </option>
+            <option value="42"> উপজেলা একাডেমিক সুপারভাইজর </option>
+            <option value="43"> সহকারী কম্পিউটার অপারেটর </option>
+            <option value="44"> জুনিয়র ইন্সট্রাক্টর </option>
+            <option value="46"> সহকারী উপজেলা শিক্ষা অফিসার </option>
+            <option value="48"> উপাধ্যক্ষ </option>
+            <option value="50"> সহকারি সুপার </option>
+            <option value="51"> সহকারি পরিচালক </option>
+            <option value="54"> গবেষণা কর্মকর্তা </option>
+            <option value="55"> সহকারী পরিদর্শক </option>
+            <option value="57"> জেলা প্রশিক্ষণ সমন্বয়কারী </option>
+            <option value="59"> সহকারী জেলা প্রাথমিক শিক্ষা অফিসার </option>
+            <option value="61"> সহকারি জেলা প্রাথমিক শিক্ষা অফিসার </option>
+            <option value="62"> মুহাদ্দিস </option>
+            <option value="63"> ফকিহ </option>
+            <option value="64"> আদিব </option>
+            <option value="66"> জ্যেষ্ঠ প্রভাষক </option>
+            <option value="68"> সহকারী মৌলভী </option>
+            <option value="71"> ইবতেদায়ী প্রধান </option>
+            <option value="72"> ইবতেদায়ী শিক্ষক </option>
+            <option value="74"> ইবতেদায়ী মৌলভী </option>
+            <option value="75"> ক্বারী </option>
+            <option value="77"> মুফাসসির </option>
+            <option value="0"> অন্যান্য </option>
+          </select>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6">
+          <select class="custom-select" name="institution_type_id" id="ins_type" required="">
+            <option value="">শিক্ষা স্তর (আপনার প্রতিষ্ঠান) </option>
+            <option value="8"> সাধারণ শিক্ষা </option>
+            <option value="9"> মাদ্রাসা শিক্ষা </option>
+            <option value="10"> কারিগরি শিক্ষা </option>
+            <option value="0">অন্যান্য </option>
+          </select>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 padright-md">
+          <select class="custom-select" name="institution_category_id" id="ins_cat" required="">
+            <option value="">প্রতিষ্ঠানের ধরণ</option>
+            <option value="0"> অন্যান্য </option>
+          </select>
+        </div>
+      </div>
+      <div class="row g-3 align-items-baseline">
+        <div class="col-xs-12 col-sm-12 col-md-3">
+          <label for="inputPassword6" class="col-form-label">জন্ম তারিখ</label>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-9">
+          <input type="date" class="form-control cust-mt" value="" name="date_of_birth">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 padright-md">
+          <select class="custom-select" name="gender" id="" required="">
+            <option value=""> জেন্ডার পছন্দ করুন </option>
+            <option value="1"> পুরুষ</option>
+            <option value="2"> মহিলা</option>
+            <option value="3"> অন্যান্য</option>
+          </select>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6">
+          <select class="custom-select" placeholder="Division" name="divission_id" id="DivissionId" required="">
+            <option> বিভাগ </option>
+            <option value="1"> বরিশাল </option>
+            <option value="2"> চট্টগ্রাম </option>
+            <option value="3"> ঢাকা </option>
+            <option value="4"> খুলনা </option>
+            <option value="5"> রাজশাহী </option>
+            <option value="6"> রংপুর </option>
+            <option value="7"> সিলেট </option>
+            <option value="9"> ময়মনসিংহ </option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 padright-md">
+          <select class="custom-select" name="district_id" id="DisticId" required="">
+            <option> জেলা </option>
+          </select>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6">
+          <select class="custom-select" name="upazila_id" id="UpazilaId" required="">
+            <option> উপজেলা </option>
+          </select>
+        </div>
+      </div>
+      <select class="custom-select" name="institution_id" id="institution_id" required="">
+        <option value=""> প্রতিষ্ঠান পছন্দ করুন </option>
+        <option value="0"> অন্যান্য </option>
+      </select>
+      <input type="text" name="institution_name" id="institution_name_others" class="form-control d-none" maxlength="190" value="" wfd-invisible="true">
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">+880</span>
+        </div>
+        <input placeholder="মোবাইল নাম্বার (ইংরেজিতে)" type="text" class="form-control " maxlength="10" minlength="10" name="ContactNo" value="" required="" title="" autocomplete="ContactNo" oninput="this.value = this.value.replace(/[^0-9.০-৯]/g, '');" autofocus="" onchange="setCustomValidity('')" oninvalid="this.setCustomValidity('স্থানটি সঠিক ভাবে পুরন করুন')">
+      </div>
+      <input id="reg_password" placeholder="পাসওয়ার্ড (সর্বনিম্ন ৬ অক্ষর)" type="password" class="form-control  " name="reg_password" minlength="6" maxlength="25" required="" title="" autocomplete="new-password" oninvalid="this.setCustomValidity('স্থানটি সঠিক ভাবে পুরন করুন')" oninput="setCustomValidity('')">
+      <input id="reg_password-confirm" placeholder="পাসওয়ার্ড টি নিশ্চিত করুন" type="password" minlength="6" maxlength="25" class="form-control" name="reg_password_confirmation" required="" title="" autocomplete="new-password" oninvalid="this.setCustomValidity('স্থানটি সঠিক ভাবে পুরন করুন')" oninput="setCustomValidity('')">
+      <div class="btns text-center sign-btn">
+        <button type="submit" name="login" class="log-icon">
+          <i class="fa fa-angle-right"></i>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+</div>
+
+
+  </div>
+</div>
+
+<!-- signup login form end -->
+
+
+
+
+
+
+
+<!-- footer start  -->
+<div class="bg-violet">
+  <footer>
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div>
+            <h5 class="mb-0" >পরিকল্পনা ও বাস্তবায়নে</h5>
+            <img src="../assets/images/white-divider.png" alt="">
+            <p>শিক্ষা মন্ত্রণালয় <br>প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় <br>মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর এবং<br>প্রাথমিক শিক্ষা অধিদপ্তর</p>
+          </div>
+          <div>
+            <h5 class="mb-0" >তত্ত্বাবধানে</h5>
+            <img src="../assets/images/white-divider.png" alt="">
+            <p>তথ্য ও যোগাযোগ প্রযুক্তি বিভাগ<br> ই-১৪/এক্স, আইসিটি টাওয়ার<br>আগারগাঁও, শের-ই-বাংলা নগর,ঢাকা- ১২০৭<br>ওয়েবসাইট: a2i.gov.bd</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+           <div>
+            <h5 class="mb-0" >যোগাযোগ</h5>
+            <img src="../assets/images/white-divider.png" alt="">
+           <p>ইমেইল: teachersportal@a2i.gov.bd<br>ফোন: +৮৮০১৮১০০৩৭৯২৬</p>
+          </div>
+           <div>
+            <h5 class="mb-0" >ব্যবহার নির্দেশিকা</h5>
+            <img src="../assets/images/white-divider.png" alt="">
+            <p class="footer-link">
+              <a href="#">শিক্ষক বাতায়ন ব্যবহার জানতে ক্লিক করুন</a>
+            </p>
+            <div class="nav">
+               <div class="d-flex">
+                  <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+                  <a class="nav-link text-black" href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+
+  
+           <div>
+            <h5 class="mb-0" >গুরুত্বপূর্ণ লিংক</h5>
+            <img src="../assets/images/white-divider.png" alt="">
+            
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!"  >প্রধানমন্ত্রীর কার্যালয়</a>
+            </li>
+            <li>
+              <a href="#!"  >শিক্ষা মন্ত্রণালয়</a>
+            </li>
+            <li>
+              <a href="#"  >মন্ত্রিপরিষদ বিভাগ</a>
+            </li>
+            <li>
+              <a href="#"  >প্রাথমিক ও গণশিক্ষা মন্ত্রণালয়</a>
+            </li>
+            <li>
+              <a href="#"  >প্রাথমিক শিক্ষা অধিদপ্তর</a>
+            </li>
+            <li>
+              <a href="#"  >মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তর</a>
+            </li>
+            <li>
+              <a href="#"  >ডাক ও টেলিযোগাযোগ বিভাগ</a>
+            </li>
+            <li>
+              <a href="#"  >তথ্য ও যোগাযোগ প্রযুক্তি বিভাগ</a>
+            </li>
+            <li>
+              <a href="#"  >জাতীয় তথ্য বাতায়ন</a>
+            </li>
+          </ul>
+
+
+
+          </div>
+
+
+
+
+        </div>
+        <div class="col-lg-3 col-md-6">
+           <div>
+            <h5 class="mb-0" >গুরুত্বপূর্ণ লিংক</h5>
+            <img src="../assets/images/white-divider.png" alt="">
+            
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!"  >জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড (এনসিটিবি)</a>
+            </li>
+            <li>
+              <a href="#!"  >জাতীয় শিক্ষা ব্যবস্থাপনা একাডেমি (নায়েম)</a>
+            </li>
+            <li>
+              <a href="#"  >বাংলাদেশ শিক্ষাতথ্য ও পরিসংখ্যান ব্যুরো (ব্যানবেইস)</a>
+            </li>
+            <li>
+              <a href="#"  >মুক্তপাঠ</a>
+            </li>
+            <li>
+              <a href="#"  >কিশোর বাতায়ন</a>
+            </li>
+            <li>
+              <a href="#"  >মাল্টিমিডিয়া ক্লাসরুম মনিটরিং সিস্টেম</a>
+            </li>
+            <li>
+              <a href="#"  >এসডিজি ট্র্যাকার</a>
+            </li>
+          </ul>
+          <img src="../assets/images/google-play.png" class="mt-3"  height="35">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+<div class="bg-white">
+    <div class="container">
+      <div class="pb-0 py-2 row">
+        <div class="col-lg-4 col-md-2 py-0">
+          <p class="text-muted"> কপিরাইট © ২০২২ সর্বস্বত্ব সংরক্ষিত <br>গণপ্রজাতন্ত্রী বাংলাদেশ সরকার</p>
+        </div>
+        <div class="col-lg-4 col-md-2">
+         <img src="../assets/images/footer-logo-new.png" width="75%">
+        </div>
+        <div class="col-lg-4 col-md-2 text-end">
+         <p class="mb-0 text-muted"> কারিগরি সহযোগিতায় </p>
+         <p class=""><a href="#" class="text-muted"> সিএসটি</a></p>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+</div>
+<!-- footer end  -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+
+
+  </body>
+</html>
