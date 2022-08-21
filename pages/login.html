@@ -345,25 +345,30 @@
 
 
 <div class="container py-5">
-  <div class="justify-content-center row shadow">
-
-<div class="col-lg-2 col-md-2 col-sm-10 py-4 text-center px-0">
-    <div class="border p-4">
+<div class="justify-content-center row shadow m-auto" style="width: 85%;">
+<div class="align-items-center col-lg-2 col-md-2 col-sm-10 d-flex justify-content-center px-0 text-center">
+<div class="w-100 tabs">
+      <div class="p-4 showLogin selectedTab" >
        <div>
          <i class="fa-user fa"></i>
          <p class="mb-0"> লগইন করুন </p>
        </div>
      </div>
-    <div class="p-4">
+    <div class="p-4 showSignUp">
        <div>
          <i class="fa fa-plus"></i>
          <p class="mb-0"> নিবন্ধন করুন </p>
        </div>
      </div>
 </div>
+</div>
+
+
+
+
 
 <div class="col-lg-4 col-md-4 col-sm-10 px-0" style="box-shadow: 0 0 10px rgb(0 0 0 / 50%);">
-  <div class="bg-violet py-5">
+  <div class="align-items-center bg-violet d-flex h-100 justify-content-center">
 <div>
       <div class="bg-white logo rounded-circle" style="border: 7px solid #fff;padding: 7px;border-radius: 50%;width: 120px;height: 120px;margin: auto;margin-bottom: 20px;">
         <img src="../assets/images/logo.svg" alt="" class="img-fluid" style="padding-top: 16px;">
@@ -378,7 +383,7 @@
 
 <div class="col-lg-6 col-md-6 col-sm-10">
   <div class="tab-content" id="myTabContent">
-  <div class="tab-pane fade  show active  " id="login" role="tabpanel" aria-labelledby="login-tab">
+  <div class="tab-pane fade show active" id="loginForm" role="tabpanel" aria-labelledby="login-tab">
     <form action="#" method="POST" class="form login-form">
       <input required="" title="" id="email" type="text" placeholder="ইমেইল / ইউজার আইডি" class="form-control first-input " name="email"   autofocus>
       <input id="password" placeholder="পাসওয়ার্ড" type="password" class="form-control " name="password" required autocomplete="current-password" >
@@ -396,7 +401,7 @@
       </div>
     </form>
   </div>
-  <div class="tab-pane fade " id="signup" role="tabpanel" aria-labelledby="signup-tab" wfd-invisible="true">
+  <div class="tab-pane fade" id="signupForm" role="tabpanel" aria-labelledby="signup-tab" wfd-invisible="true">
     <form method="POST" action="#" class="form signup-form">
       
       <input type="text" id="name" name="nameeng" class="form-control first-input" placeholder="নাম"  required >
@@ -521,7 +526,7 @@
         <option value="0"> অন্যান্য </option>
       </select>
       <input type="text" name="institution_name" id="institution_name_others" class="form-control d-none" maxlength="190"   wfd-invisible="true">
-      <div class="input-group">
+      <div class="align-items-baseline input-group">
         <div class="input-group-prepend">
           <span class="input-group-text">+880</span>
         </div>
@@ -694,7 +699,21 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
+    <script>
+    $('.showLogin').on('click',(e)=> {
+      $('.showLogin').addClass('selectedTab');
+      $('#loginForm').addClass('show active');
+      $('#signupForm').removeClass('show active');
+      $('.showSignUp').removeClass('selectedTab');
+    })
 
+    $('.showSignUp').on('click',(e)=> {
+      $('.showSignUp').addClass('selectedTab');
+      $('#signupForm').addClass('show active');
+      $('#loginForm').removeClass('show active');
+      $('.showLogin').removeClass('selectedTab');
+    })
+    </script>
 
   </body>
 </html>
