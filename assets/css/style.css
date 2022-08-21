@@ -405,3 +405,28 @@ footer *{
    border-left: 5px solid #662d91;
    background: #f7f7f7;
 }
+
+
+/*   news details start  */
+
+.pageTitle{
+   background-image: url(../images/inner-banner-bg.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 20px 0 !important;
+}
+
+.newsTitle{
+  color: #8ac73e;
+  text-align: justify;
+  font-size: 22px;
+}
+
+.details{
+  font-size: 15px;
+  color: #62626b;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/*   news details end  */
