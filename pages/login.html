@@ -379,33 +379,32 @@
 <div class="col-lg-6 col-md-6 col-sm-10">
   <div class="tab-content" id="myTabContent">
   <div class="tab-pane fade  show active  " id="login" role="tabpanel" aria-labelledby="login-tab">
-    <form action="https://www.teachers.gov.bd/user_login" method="POST" class="form login-form">
-      <input type="hidden" name="_token" value="KuxG1tKRV97IntMN4EQAXHdqpRVGtsQqUaonFNok" wfd-invisible="true">
-      <input required="" title="" id="email" type="text" placeholder="ইমেইল / ইউজার আইডি" class="form-control first-input " name="email" value="" autofocus="" oninvalid="this.setCustomValidity('স্থানটি সঠিক ভাবে পুরন করুন')" oninput="setCustomValidity('')">
-      <input id="password" placeholder="পাসওয়ার্ড" type="password" class="form-control " name="password" required="" title="" autocomplete="current-password" oninvalid="this.setCustomValidity('স্থানটি সঠিক ভাবে পুরন করুন')" oninput="setCustomValidity('')">
+    <form action="#" method="POST" class="form login-form">
+      <input required="" title="" id="email" type="text" placeholder="ইমেইল / ইউজার আইডি" class="form-control first-input " name="email"   autofocus>
+      <input id="password" placeholder="পাসওয়ার্ড" type="password" class="form-control " name="password" required autocomplete="current-password" >
       <div class="btns text-center">
         <br>
-        <a href="https://www.teachers.gov.bd/forgot_password" class="forget-btn">পাসওয়ার্ড ভুলে গেছেন?</a>
+        <a href="#" class="forget-btn">পাসওয়ার্ড ভুলে গেছেন?</a>
         <br>
         <button type="submit" class="log-icon">
           <i class="fa fa-angle-right"></i>
         </button>
         <br>
         <br>
-        <a href="#" onclick="active_box()"> আপনার কি কোন অ্যাকাউন্ট আছে? <span> নিবন্ধন করুন </span>
+        <a href="#" > আপনার কি কোন অ্যাকাউন্ট আছে? <span> নিবন্ধন করুন </span>
         </a>
       </div>
     </form>
   </div>
   <div class="tab-pane fade " id="signup" role="tabpanel" aria-labelledby="signup-tab" wfd-invisible="true">
-    <form method="POST" action="https://www.teachers.gov.bd/register" class="form signup-form">
-      <input type="hidden" name="_token" value="KuxG1tKRV97IntMN4EQAXHdqpRVGtsQqUaonFNok" wfd-invisible="true">
-      <input type="text" id="name" name="nameeng" class="form-control first-input" placeholder="নাম" value="" required="" title="" autocomplete="nameeng" oninvalid="this.setCustomValidity('স্থানটি সঠিক ভাবে পুরন করুন')" oninput="setCustomValidity('')">
-      <input required="" title="" placeholder="ইমেইল (ইংরেজিতে)" type="email" class="form-control " name="reg_email" pattern="^(([-\w\d]+)(\.[-\w\d]+)*@([-\w\d]+)(\.[-\w\d]+)*(\.([a-zA-Z]{2,5}|[\d]{1,3})){1,2})$" value="" oninvalid="this.setCustomValidity('স্থানটি সঠিক ভাবে পুরন করুন')" oninput="setCustomValidity('')">
+    <form method="POST" action="#" class="form signup-form">
+      
+      <input type="text" id="name" name="nameeng" class="form-control first-input" placeholder="নাম"  required >
+      <input required="" title="" placeholder="ইমেইল (ইংরেজিতে)" type="email" class="form-control " name="reg_email" pattern="^(([-\w\d]+)(\.[-\w\d]+)*@([-\w\d]+)(\.[-\w\d]+)*(\.([a-zA-Z]{2,5}|[\d]{1,3})){1,2})$" >
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 padright-md">
           <select class="custom-select" name="designation_id" id="" required="">
-            <option value=""> পদবী পছন্দ করুন </option>
+            <option  > পদবী পছন্দ করুন </option>
             <option value="1"> সহকারী শিক্ষক </option>
             <option value="5"> সিনিয়র শিক্ষক </option>
             <option value="6"> সহকারী প্রধান শিক্ষক </option>
@@ -460,7 +459,7 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6">
           <select class="custom-select" name="institution_type_id" id="ins_type" required="">
-            <option value="">শিক্ষা স্তর (আপনার প্রতিষ্ঠান) </option>
+            <option  >শিক্ষা স্তর (আপনার প্রতিষ্ঠান) </option>
             <option value="8"> সাধারণ শিক্ষা </option>
             <option value="9"> মাদ্রাসা শিক্ষা </option>
             <option value="10"> কারিগরি শিক্ষা </option>
@@ -469,7 +468,7 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6 padright-md">
           <select class="custom-select" name="institution_category_id" id="ins_cat" required="">
-            <option value="">প্রতিষ্ঠানের ধরণ</option>
+            <option  >প্রতিষ্ঠানের ধরণ</option>
             <option value="0"> অন্যান্য </option>
           </select>
         </div>
@@ -479,13 +478,13 @@
           <label for="inputPassword6" class="col-form-label">জন্ম তারিখ</label>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-9">
-          <input type="date" class="form-control cust-mt" value="" name="date_of_birth">
+          <input type="date" class="form-control cust-mt"   name="date_of_birth">
         </div>
       </div>
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-6 padright-md">
           <select class="custom-select" name="gender" id="" required="">
-            <option value=""> জেন্ডার পছন্দ করুন </option>
+            <option  > জেন্ডার পছন্দ করুন </option>
             <option value="1"> পুরুষ</option>
             <option value="2"> মহিলা</option>
             <option value="3"> অন্যান্য</option>
@@ -518,18 +517,18 @@
         </div>
       </div>
       <select class="custom-select" name="institution_id" id="institution_id" required="">
-        <option value=""> প্রতিষ্ঠান পছন্দ করুন </option>
+        <option  > প্রতিষ্ঠান পছন্দ করুন </option>
         <option value="0"> অন্যান্য </option>
       </select>
-      <input type="text" name="institution_name" id="institution_name_others" class="form-control d-none" maxlength="190" value="" wfd-invisible="true">
+      <input type="text" name="institution_name" id="institution_name_others" class="form-control d-none" maxlength="190"   wfd-invisible="true">
       <div class="input-group">
         <div class="input-group-prepend">
           <span class="input-group-text">+880</span>
         </div>
-        <input placeholder="মোবাইল নাম্বার (ইংরেজিতে)" type="text" class="form-control " maxlength="10" minlength="10" name="ContactNo" value="" required="" title="" autocomplete="ContactNo" oninput="this.value = this.value.replace(/[^0-9.০-৯]/g, '');" autofocus="" onchange="setCustomValidity('')" oninvalid="this.setCustomValidity('স্থানটি সঠিক ভাবে পুরন করুন')">
+        <input placeholder="মোবাইল নাম্বার (ইংরেজিতে)" type="text" class="form-control " maxlength="10" minlength="10" name="ContactNo"   required  autocomplete="ContactNo" autofocus="">
       </div>
-      <input id="reg_password" placeholder="পাসওয়ার্ড (সর্বনিম্ন ৬ অক্ষর)" type="password" class="form-control  " name="reg_password" minlength="6" maxlength="25" required="" title="" autocomplete="new-password" oninvalid="this.setCustomValidity('স্থানটি সঠিক ভাবে পুরন করুন')" oninput="setCustomValidity('')">
-      <input id="reg_password-confirm" placeholder="পাসওয়ার্ড টি নিশ্চিত করুন" type="password" minlength="6" maxlength="25" class="form-control" name="reg_password_confirmation" required="" title="" autocomplete="new-password" oninvalid="this.setCustomValidity('স্থানটি সঠিক ভাবে পুরন করুন')" oninput="setCustomValidity('')">
+      <input id="reg_password" placeholder="পাসওয়ার্ড (সর্বনিম্ন ৬ অক্ষর)" type="password" class="form-control  " name="reg_password" minlength="6" maxlength="25" required="" title="" autocomplete="new-password" >
+      <input id="reg_password-confirm" placeholder="পাসওয়ার্ড টি নিশ্চিত করুন" type="password" minlength="6" maxlength="25" class="form-control" name="reg_password_confirmation" required="" title="" autocomplete="new-password">
       <div class="btns text-center sign-btn">
         <button type="submit" name="login" class="log-icon">
           <i class="fa fa-angle-right"></i>
