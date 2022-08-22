@@ -1,0 +1,837 @@
+<!doctype html>
+<html lang="en" >
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
+    <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- new ticker css -->
+    <link rel="stylesheet" href="../assets/css/acmeticker.css">
+    <!-- swiper css -->
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <!-- jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- sipwer js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <title>Home | </title>
+  </head>
+  <body>
+
+<!-- topbar start  -->
+<div class="topBar">
+    <div class="container">
+        <nav class="d-flex justify-content-between navbar navbar-expand-lg p-0 text-white">
+            <p class="navbar-brand m-0" href="#" style="font-family = SolaimanLipi !important; color:#fff;">বৃহস্পতি, ১৮ আগস্ট ২০২২, ৩ ভাদ্র ১৪২৯
+            </p>
+            <div class="d-flex gap-3 h-100 language">
+                <div class="d-md-block d-none mr-3 text">
+                    <p class="">কনটেন্ট<b class="px-1">৫২০১৯১</b>| মডেল কনটেন্ট<b class="px-1">৯৫৩</b>| সদস্য<b class="px-1">৬০১৪৭৪</b></p>
+                </div>
+                <div class="btn-group py-1">
+                    <a class="langBtn btn btn-sm text-black active" href="https://www.teachers.gov.bd/locale/bn"> বাংলা </a>
+                    <a class="langBtn btn btn-sm text-white " href="https://www.teachers.gov.bd/locale/en"> English </a>
+                </div>
+            </div>
+            
+        </nav>
+    </div>
+</div>
+
+<!-- top bar end -->
+
+<!-- navbar start -->
+
+<nav class="bg-white navbar navbar-expand-lg shadow-sm sticky-top">
+  <div class="container">
+    <div class="container-fluid d-flex p-0">
+      <div class="d-flex w-25">
+            <a class="navbar-brand m-0" href="#">
+              <img src="../assets/images/bdLogo.png" alt="" style="height: 33px">
+              <img src="../assets/images/logo.svg" alt="" style="height: 45px">
+            </a>
+               <ul class="navbar-nav p-2 ps-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle noArrow" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-align-left"></i>
+                  </a>
+                  <ul class="dropdown-menu text-start">
+                    <li>
+                      <a class="dropdown-item" href="#">
+                          <img src="../assets/images/mujib.png" alt="" style="height: 18px;width: 18px;">
+                        মুজিব শতবর্ষ
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                         <i class="fas fa-chalkboard-teacher pe-0 ps-1"></i> 
+                         আমার স্কুল
+                       </a>
+                     </li>
+                       <li>
+                      <a class="dropdown-item" href="#">
+                         <i class="fas fa-chalkboard-teacher pe-0 ps-1"></i> 
+                         আমার স্কুল
+                       </a>
+                     </li>
+                     <li>
+                      <a class="dropdown-item" href="#">
+                         <i class="fas fa-chalkboard-teacher pe-0 ps-1"></i> 
+                         আমার স্কুল
+                       </a>
+                     </li>
+                  </ul>
+                </li>
+              </ul>
+              <a href="#">
+               <img src="../assets/images/my-school.jpg" style="width: 30px;" class="h-75 img-fluid pt-1">
+              </a>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <input class="form-control me-2" type="search" placeholder="খুঁজুন ...." id='searchInput' >
+          <li class="nav-item">
+            <a class="nav-link active"   href="#"><i class="fa-solid fa-house-chimney"></i></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" >
+              কনটেন্ট
+            </a>
+            <ul class="dropdown-menu text-start">
+              <li><a class="dropdown-item" href="#">- ব্লগ</a></li>
+              <li><a class="dropdown-item" href="#">- চিত্র</a></li>
+              <li><a class="dropdown-item" href="#">- প্রেজেন্টেশন</a></li>
+              <li><a class="dropdown-item" href="#">- ভিডিও কনটেন্ট</a></li>
+              <li><a class="dropdown-item" href="#">- প্রকাশনা</a></li>
+              <li><a class="dropdown-item" href="#">- ম্যাগাজিন</a></li>
+              <li><a class="dropdown-item" href="#">- উদ্ভাবনের গল্প</a></li>
+              <li><a class="dropdown-item" href="#">- নেতৃত্বের গল্প</a></li>
+              <li><a class="dropdown-item" href="#">- বৈশ্বিক বিষয়াবলী</a></li>
+              <li><a class="dropdown-item" href="#">- শিক্ষায় অগ্রযাত্রা</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              সাধারণ শিক্ষা
+            </a>
+            <ul class="dropdown-menu text-start">
+                <li class="position-relative">
+                  <a class="dropdown-item position-relative" href="#">
+                    আবশ্যিক 
+                    <span class="subMenuArrow"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-submenu text-start">
+                    <li>
+                      <a class="dropdown-item" href="#">- আমার বাংলা বই</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- English for Today</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- প্রাথমিক গণিত</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- হিন্দু ধর্ম ও নৈতিক শিক্ষা</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- তথ্য ও যোগাযোগ প্রযুক্তি</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="position-relative">
+                  <a class="dropdown-item position-relative" href="#">
+                    বিজ্ঞান
+                    <span class="subMenuArrow"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-submenu text-start">
+                    <li>
+                      <a class="dropdown-item" href="#">- পদার্থ বিজ্ঞান</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- রসায়ন</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- জীব বিজ্ঞান</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="position-relative">
+                  <a class="dropdown-item position-relative" href="#">
+                    মানবিক
+                    <span class="subMenuArrow"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-submenu text-start">
+                    <li>
+                      <a class="dropdown-item" href="#">- কৃষি শিক্ষা</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- সমাজকর্ম</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- মনোবিজ্ঞান</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- যুক্তিবিদ্যা</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- ইসলামের ইতিহাস ও সংস্কৃতি</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="position-relative">
+                  <a class="dropdown-item position-relative" href="#">
+                    ব্যবসায় শিক্ষা
+                    <span class="subMenuArrow"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-submenu text-start">
+                    <li>
+                      <a class="dropdown-item" href="#">- ব্যবসায় সংগঠন ও ব্যবস্থাপনা ১ম পত্র  </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- ব্যবসায় সংগঠন ও ব্যবস্থাপনা ২য় পত্র </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- উৎপাদন ব্যবস্থাপনা ও বিপণন ১ম পত্র </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- উৎপাদন ব্যবস্থাপনা ও বিপণন ২য় পত্র </a>
+                    </li>
+                  </ul>
+                </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              মাদ্রাসা শিক্ষা
+            </a>
+        <ul class="dropdown-menu text-start">
+                <li class="position-relative">
+                  <a class="dropdown-item position-relative" href="#">
+                    আবশ্যিক 
+                    <span class="subMenuArrow"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-submenu text-start">
+                    <li>
+                      <a class="dropdown-item" href="#">- আমার বাংলা বই</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- English for Today</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- প্রাথমিক গণিত</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- হিন্দু ধর্ম ও নৈতিক শিক্ষা</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- তথ্য ও যোগাযোগ প্রযুক্তি</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="position-relative">
+                  <a class="dropdown-item position-relative" href="#">
+                    বিজ্ঞান
+                    <span class="subMenuArrow"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-submenu text-start">
+                    <li>
+                      <a class="dropdown-item" href="#">- পদার্থ বিজ্ঞান</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- রসায়ন</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- জীব বিজ্ঞান</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="position-relative">
+                  <a class="dropdown-item position-relative" href="#">
+                    মানবিক
+                    <span class="subMenuArrow"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-submenu text-start">
+                    <li>
+                      <a class="dropdown-item" href="#">- কৃষি শিক্ষা</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- সমাজকর্ম</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- মনোবিজ্ঞান</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- যুক্তিবিদ্যা</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- ইসলামের ইতিহাস ও সংস্কৃতি</a>
+                    </li>
+                  </ul>
+                </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              কারিগরি শিক্ষা
+            </a>
+             <ul class="dropdown-menu text-start">
+                <li class="position-relative">
+                  <a class="dropdown-item position-relative" href="#">
+                    আবশ্যিক 
+                    <span class="subMenuArrow"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-submenu text-start">
+                    <li>
+                      <a class="dropdown-item" href="#">- আমার বাংলা বই</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- English for Today</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- প্রাথমিক গণিত</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- হিন্দু ধর্ম ও নৈতিক শিক্ষা</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- তথ্য ও যোগাযোগ প্রযুক্তি</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="position-relative">
+                  <a class="dropdown-item position-relative" href="#">
+                    ঐচ্ছিক  
+                    <span class="subMenuArrow"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-submenu text-start">
+                    <li>
+                      <a class="dropdown-item" href="#">- পদার্থ বিজ্ঞান</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- রসায়ন</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">- জীব বিজ্ঞান</a>
+                    </li>
+                  </ul>
+                </li>
+            </ul>
+          </li>
+        </ul>
+        <div>
+          <a href="./login.html">
+           <button class="btn btn-outline-success" type="submit">লগইন/নিবন্ধন</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- navbar end -->
+
+
+<!-- blogs start -->
+
+<div class="newDetailsSecion">
+  <div class="pageTitle">
+<div class="container justify-content-between">
+<div class="justify-content-between row">
+        <h4 class="col-lg-4">ব্লগ (১৮৫৮৫০)</h4>  
+        <div class="col-lg-8">
+          <form action="#" class="d-flex">
+          <div class="form-group px-2">
+              <input type="text" name="blogname" class="form-control d-inline border-less-title" placeholder="শিরোনাম">
+          </div>
+          <div class="form-group px-2">
+              <input type="date"  id="from_date" name="from_date" class="form-control datepicker-here d-inline border-less-date" placeholder="তারিখ হইতে">
+          </div>
+          <div class="form-group px-2">
+              <input id="to_date" type="date"  name="to_date" class="form-control datepicker-here d-inline border-less-date" placeholder="তারিখ পর্যন্ত">
+          </div>
+          <div class="d-flex">
+            <button type="submit"  class="btn btn-sm text-white w-100" style="background: #8ac73e;">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <span>খুঁজুন</span>
+            </button>            
+          </div>
+          </form>
+        </div>
+    </div>
+  </div>
+  </div>
+
+ <div class="container py-5">
+   <div class="row justify-content-center">
+     <div class="col-lg-9 col-md-8 col-sm-10">
+
+
+<div class="border-0 border-top card p-1 shadow-sm mb-3">
+  <div class="row">
+    <div class="col-lg-4">
+      <img src="../assets/images/sampleBlog.jpeg" class="img-fluid">
+    </div>
+    <div class="col-lg-8">
+      <div class="card-body">
+        <h5 class="card-title highlights">তীব্র দাবদাহে অতিষ্ঠ জনজীবন। গরমে সুস্থ থাকতে কী...</h5>
+        <p class="d-inline">
+          <i class="fas fa-star" style="color: #f9cb8f !important;"></i>
+          <span class="gall-comment ml-2">রেটিং&nbsp; 0</span>
+        </p>
+        <p class="card-text text-secondary">-- গরমে সুস্থ থাকতে কী খাবেন --তীব্র দাবদাহে অতিষ্ঠ জনজীবন। গরমে দেখা দিতে পারে বিভিন্ন শারীরিক জটিলতা। অনেককেই এ সময় পানিশূন্যতা, ডায়রিয়া, আমাশয়, কোষ্ঠকাঠিন্য, ত্বকে সমস্যা, আ্যলার্জি, ঘুমের ব্যাঘাত,...</p>
+        <div class="d-flex">
+          <div class="border-start px-3 align-items-center border-start d-flex px-3">
+            <div>
+              <i class="far fa-comment-alt"></i>
+              <span>মন্তব্য ০ </span>
+            </div>
+          </div>
+          <div class="border-start px-3 align-items-center border-start d-flex px-3">
+            <div>
+              <i class="far fa-calendar-alt"></i>
+              <span>২২ আগস্ট ২০২২</span>
+            </div>
+          </div>
+          <div class="border-start px-3 align-items-center border-start d-flex px-3">
+            <div>
+            <a href="#" class="text-black">
+              <div class="d-flex m-0">
+                <img src="../assets/images/m1.jpeg" class="border img-fluid p-1 rounded-1" style="height: 45px;">
+                <div class="ms-3 text-start">
+                  <h5 class="highlights m-0" style="font-size: 15px;">মোঃ শাহাকুল ইসলাম</h5>
+                  <p class="m-0 small" style="color: #693193;">সহকারী শিক্ষক</p>
+                </div>
+              </div>
+            </a>
+           </div>
+          </div>
+        </div>
+     </div>
+    </div>
+  </div>
+</div>
+<div class="border-0 border-top card p-1 shadow-sm mb-3">
+  <div class="row">
+    <div class="col-lg-4">
+      <img src="../assets/images/sampleBlog.jpeg" class="img-fluid">
+    </div>
+    <div class="col-lg-8">
+      <div class="card-body">
+        <h5 class="card-title highlights">তীব্র দাবদাহে অতিষ্ঠ জনজীবন। গরমে সুস্থ থাকতে কী...</h5>
+        <p class="d-inline">
+          <i class="fas fa-star" style="color: #f9cb8f !important;"></i>
+          <span class="gall-comment ml-2">রেটিং&nbsp; 0</span>
+        </p>
+        <p class="card-text text-secondary">-- গরমে সুস্থ থাকতে কী খাবেন --তীব্র দাবদাহে অতিষ্ঠ জনজীবন। গরমে দেখা দিতে পারে বিভিন্ন শারীরিক জটিলতা। অনেককেই এ সময় পানিশূন্যতা, ডায়রিয়া, আমাশয়, কোষ্ঠকাঠিন্য, ত্বকে সমস্যা, আ্যলার্জি, ঘুমের ব্যাঘাত,...</p>
+        <div class="d-flex">
+          <div class="border-start px-3 align-items-center border-start d-flex px-3">
+            <div>
+              <i class="far fa-comment-alt"></i>
+              <span>মন্তব্য ০ </span>
+            </div>
+          </div>
+          <div class="border-start px-3 align-items-center border-start d-flex px-3">
+            <div>
+              <i class="far fa-calendar-alt"></i>
+              <span>২২ আগস্ট ২০২২</span>
+            </div>
+          </div>
+          <div class="border-start px-3 align-items-center border-start d-flex px-3">
+            <div>
+            <a href="#" class="text-black">
+              <div class="d-flex m-0">
+                <img src="../assets/images/m1.jpeg" class="border img-fluid p-1 rounded-1" style="height: 45px;">
+                <div class="ms-3 text-start">
+                  <h5 class="highlights m-0" style="font-size: 15px;">মোঃ শাহাকুল ইসলাম</h5>
+                  <p class="m-0 small" style="color: #693193;">সহকারী শিক্ষক</p>
+                </div>
+              </div>
+            </a>
+           </div>
+          </div>
+        </div>
+     </div>
+    </div>
+  </div>
+</div>
+<div class="border-0 border-top card p-1 shadow-sm mb-3">
+  <div class="row">
+    <div class="col-lg-4">
+      <img src="../assets/images/sampleBlog.jpeg" class="img-fluid">
+    </div>
+    <div class="col-lg-8">
+      <div class="card-body">
+        <h5 class="card-title highlights">তীব্র দাবদাহে অতিষ্ঠ জনজীবন। গরমে সুস্থ থাকতে কী...</h5>
+        <p class="d-inline">
+          <i class="fas fa-star" style="color: #f9cb8f !important;"></i>
+          <span class="gall-comment ml-2">রেটিং&nbsp; 0</span>
+        </p>
+        <p class="card-text text-secondary">-- গরমে সুস্থ থাকতে কী খাবেন --তীব্র দাবদাহে অতিষ্ঠ জনজীবন। গরমে দেখা দিতে পারে বিভিন্ন শারীরিক জটিলতা। অনেককেই এ সময় পানিশূন্যতা, ডায়রিয়া, আমাশয়, কোষ্ঠকাঠিন্য, ত্বকে সমস্যা, আ্যলার্জি, ঘুমের ব্যাঘাত,...</p>
+        <div class="d-flex">
+          <div class="border-start px-3 align-items-center border-start d-flex px-3">
+            <div>
+              <i class="far fa-comment-alt"></i>
+              <span>মন্তব্য ০ </span>
+            </div>
+          </div>
+          <div class="border-start px-3 align-items-center border-start d-flex px-3">
+            <div>
+              <i class="far fa-calendar-alt"></i>
+              <span>২২ আগস্ট ২০২২</span>
+            </div>
+          </div>
+          <div class="border-start px-3 align-items-center border-start d-flex px-3">
+            <div>
+            <a href="#" class="text-black">
+              <div class="d-flex m-0">
+                <img src="../assets/images/m1.jpeg" class="border img-fluid p-1 rounded-1" style="height: 45px;">
+                <div class="ms-3 text-start">
+                  <h5 class="highlights m-0" style="font-size: 15px;">মোঃ শাহাকুল ইসলাম</h5>
+                  <p class="m-0 small" style="color: #693193;">সহকারী শিক্ষক</p>
+                </div>
+              </div>
+            </a>
+           </div>
+          </div>
+        </div>
+     </div>
+    </div>
+  </div>
+</div>
+<div class="border-0 border-top card p-1 shadow-sm mb-3">
+  <div class="row">
+    <div class="col-lg-4">
+      <img src="../assets/images/sampleBlog.jpeg" class="img-fluid">
+    </div>
+    <div class="col-lg-8">
+      <div class="card-body">
+        <h5 class="card-title highlights">তীব্র দাবদাহে অতিষ্ঠ জনজীবন। গরমে সুস্থ থাকতে কী...</h5>
+        <p class="d-inline">
+          <i class="fas fa-star"  style="color: #f9cb8f !important;"></i>
+          <span class="gall-comment ml-2">রেটিং&nbsp; 0</span>
+        </p>
+        <p class="card-text text-secondary">-- গরমে সুস্থ থাকতে কী খাবেন --তীব্র দাবদাহে অতিষ্ঠ জনজীবন। গরমে দেখা দিতে পারে বিভিন্ন শারীরিক জটিলতা। অনেককেই এ সময় পানিশূন্যতা, ডায়রিয়া, আমাশয়, কোষ্ঠকাঠিন্য, ত্বকে সমস্যা, আ্যলার্জি, ঘুমের ব্যাঘাত,...</p>
+        <div class="d-flex">
+          <div class="border-start px-3 align-items-center border-start d-flex px-3">
+            <div>
+              <i class="far fa-comment-alt"></i>
+              <span>মন্তব্য ০ </span>
+            </div>
+          </div>
+          <div class="border-start px-3 align-items-center border-start d-flex px-3">
+            <div>
+              <i class="far fa-calendar-alt"></i>
+              <span>২২ আগস্ট ২০২২</span>
+            </div>
+          </div>
+          <div class="border-start px-3 align-items-center border-start d-flex px-3">
+            <div>
+            <a href="#" class="text-black">
+              <div class="d-flex m-0">
+                <img src="../assets/images/m1.jpeg" class="border img-fluid p-1 rounded-1" style="height: 45px;">
+                <div class="ms-3 text-start">
+                  <h5 class="highlights m-0" style="font-size: 15px;">মোঃ শাহাকুল ইসলাম</h5>
+                  <p class="m-0 small" style="color: #693193;">সহকারী শিক্ষক</p>
+                </div>
+              </div>
+            </a>
+           </div>
+          </div>
+        </div>
+     </div>
+    </div>
+  </div>
+</div>
+
+
+     </div>
+     <div class="col-md-4 col-lg-3 col-sm-10">
+      <div style="background: #f8f8f8;">
+      <div id="slider2" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#slider2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#slider2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#slider2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" style="height: 420px;background: #f8f8f8;">
+
+          <div class="carousel-item active h-100 p-3">
+               <div class="card py-4 text-center border-0 bg-transparent"   >
+                 <h5 class="card-title text-center">সেরা কনটেন্ট নির্মাতা</h5>
+                <img src="../assets/images/slider/m.jpeg" class="card-img-top h-50 m-auto rounded-circle w-50" alt="...">
+                <div class="card-body">
+                  <a href="#" class="text-black text-decoration-none">
+                    <h5 class="card-title text-center">মোঃ আরিফুল ইসলাম</h5>
+                  </a>
+                  <p class="card-text">অভিনন্দন! আপনি মানসম্মত কনটেন্ট তৈরি করেছেন। সেরা রেটিং পেয়েছেন।</p>
+                  <a href="#" class="btn btn-primary btn-sm">আর্কাইভ</a>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item  h-100 p-3">
+               <div class="card py-4 text-center border-0 bg-transparent"   >
+                 <h5 class="card-title text-center">সেরা কনটেন্ট নির্মাতা</h5>
+                <img src="../assets/images/slider/m.jpeg" class="card-img-top h-50 m-auto rounded-circle w-50" alt="...">
+                <div class="card-body">
+                  <a href="#" class="text-black text-decoration-none">
+                    <h5 class="card-title text-center">মোঃ আরিফুল ইসলাম</h5>
+                  </a>
+                  <p class="card-text">অভিনন্দন! আপনি মানসম্মত কনটেন্ট তৈরি করেছেন। সেরা রেটিং পেয়েছেন।</p>
+                  <a href="#" class="btn btn-primary btn-sm">আর্কাইভ</a>
+                </div>
+              </div>
+          </div>          
+          <div class="carousel-item  h-100 p-3">
+               <div class="card py-4 text-center border-0 bg-transparent"   >
+                 <h5 class="card-title text-center">সেরা কনটেন্ট নির্মাতা</h5>
+                <img src="../assets/images/slider/m.jpeg" class="card-img-top h-50 m-auto rounded-circle w-50" alt="...">
+                <div class="card-body">
+                  <a href="#" class="text-black text-decoration-none">
+                    <h5 class="card-title text-center">মোঃ আরিফুল ইসলাম</h5>
+                  </a>
+                  <p class="card-text">অভিনন্দন! আপনি মানসম্মত কনটেন্ট তৈরি করেছেন। সেরা রেটিং পেয়েছেন।</p>
+                  <a href="#" class="btn btn-primary btn-sm">আর্কাইভ</a>
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div class="bg-gray my-4 px-3 py-5">
+      <div>
+        <h4 class="m-0">আলোচিত লেখা</h4>
+        <img src="../assets/images/divider.png" alt="" class="img-fluid mb-3">
+
+        <div class="border-bottom d-flex justify-content-between mb-3 pb-1 highlights">
+             <a href="#"><p class="m-0"><img src="../assets/images/m1.jpeg" class="best-reading-img"> গিরগিটির ত্বকের আশ্চর্য</p></a>
+         </div>
+        <div class="border-bottom d-flex justify-content-between mb-0 pb-1 highlights">
+             <a href="#"><p class="m-0"><img src="../assets/images/m2.jpg" class="best-reading-img"> গ্রামের খুব সহজলভ্য ফল আতা</p></a>
+        </div>
+        <div class="border-bottom d-flex justify-content-between mb-0 pb-1 highlights">
+             <a href="#"><p class="m-0"><img src="../assets/images/m2.jpg" class="best-reading-img"> গ্রামের খুব সহজলভ্য ফল আতা</p></a>
+        </div>
+      </div>
+        <div class="pt-4 text-center">
+         <button class="btn btn-sm rounded-pill seeMoreBtn">আরও দেখুন</button>
+        </div>
+    </div>
+
+
+
+    <div class="bg-gray my-4 px-3 py-5">
+      <div>
+        <h4 class="m-0">প্রকাশনা</h4>
+        <img src="../assets/images/divider.png" alt="" class="img-fluid mb-3">
+
+         
+        <div class="border-bottom mb-3 pb-1">
+          <a href="#" class="text-black">
+            <div class="d-flex m-0">
+              <img src="../assets/images/m1.jpeg" class="img-fluid p-1" style="height: 70px;">
+              <div class="ms-3 text-start">
+                <h5 class="highlights m-0" style="font-size: 15px;">অনাচার</h5>
+                <p class="m-0">মোঃ শাহাকুল ইসলাম</p>
+                <span class="small text-muted">১০ মে,২০২১</span>
+              </div>
+            </div>
+          </a>
+        </div>         
+        <div class="border-bottom mb-3 pb-1">
+          <a href="#" class="text-black">
+            <div class="d-flex m-0">
+              <img src="../assets/images/m1.jpeg" class="img-fluid p-1" style="height: 70px;">
+              <div class="ms-3 text-start">
+                <h5 class="highlights m-0" style="font-size: 15px;">সহপাঠির সহায়তা</h5>
+                <p class="m-0">মোহাম্মদ হোসেন</p>
+                <span class="small text-muted">০৯ মে,২০২০</span>
+              </div>
+            </div>
+          </a>
+        </div>       
+        <div class="border-bottom mb-3 pb-1">
+          <a href="#" class="text-black">
+            <div class="d-flex m-0">
+              <img src="../assets/images/m1.jpeg" class="img-fluid p-1" style="height: 70px;">
+              <div class="ms-3 text-start">
+                <h5 class="highlights m-0" style="font-size: 15px;">An Easy Way To Learn...</h5>
+                <p class="m-0">সবুজ ভট্টাচার্য্য</p>
+                <span class="small text-muted">০৫ মে,২০২০</span>
+              </div>
+            </div>
+          </a>
+        </div>        
+      </div>
+    </div>
+
+
+      </div>
+   </div>
+ </div>
+
+
+</div>
+
+<!-- news details end -->
+
+
+
+<!-- footer start  -->
+<div class="bg-violet">
+  <footer>
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div>
+            <h5 class="mb-0" >পরিকল্পনা ও বাস্তবায়নে</h5>
+            <img src="../assets/images/white-divider.png" alt="">
+            <p>শিক্ষা মন্ত্রণালয় <br>প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় <br>মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর এবং<br>প্রাথমিক শিক্ষা অধিদপ্তর</p>
+          </div>
+          <div>
+            <h5 class="mb-0" >তত্ত্বাবধানে</h5>
+            <img src="../assets/images/white-divider.png" alt="">
+            <p>তথ্য ও যোগাযোগ প্রযুক্তি বিভাগ<br> ই-১৪/এক্স, আইসিটি টাওয়ার<br>আগারগাঁও, শের-ই-বাংলা নগর,ঢাকা- ১২০৭<br>ওয়েবসাইট: a2i.gov.bd</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+           <div>
+            <h5 class="mb-0" >যোগাযোগ</h5>
+            <img src="../assets/images/white-divider.png" alt="">
+           <p>ইমেইল: teachersportal@a2i.gov.bd<br>ফোন: +৮৮০১৮১০০৩৭৯২৬</p>
+          </div>
+           <div>
+            <h5 class="mb-0" >ব্যবহার নির্দেশিকা</h5>
+            <img src="../assets/images/white-divider.png" alt="">
+            <p class="footer-link">
+              <a href="#">শিক্ষক বাতায়ন ব্যবহার জানতে ক্লিক করুন</a>
+            </p>
+            <div class="nav">
+               <div class="d-flex">
+                  <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+                  <a class="nav-link text-black" href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+
+  
+           <div>
+            <h5 class="mb-0" >গুরুত্বপূর্ণ লিংক</h5>
+            <img src="../assets/images/white-divider.png" alt="">
+            
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!"  >প্রধানমন্ত্রীর কার্যালয়</a>
+            </li>
+            <li>
+              <a href="#!"  >শিক্ষা মন্ত্রণালয়</a>
+            </li>
+            <li>
+              <a href="#"  >মন্ত্রিপরিষদ বিভাগ</a>
+            </li>
+            <li>
+              <a href="#"  >প্রাথমিক ও গণশিক্ষা মন্ত্রণালয়</a>
+            </li>
+            <li>
+              <a href="#"  >প্রাথমিক শিক্ষা অধিদপ্তর</a>
+            </li>
+            <li>
+              <a href="#"  >মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তর</a>
+            </li>
+            <li>
+              <a href="#"  >ডাক ও টেলিযোগাযোগ বিভাগ</a>
+            </li>
+            <li>
+              <a href="#"  >তথ্য ও যোগাযোগ প্রযুক্তি বিভাগ</a>
+            </li>
+            <li>
+              <a href="#"  >জাতীয় তথ্য বাতায়ন</a>
+            </li>
+          </ul>
+
+
+
+          </div>
+
+
+
+
+        </div>
+        <div class="col-lg-3 col-md-6">
+           <div>
+            <h5 class="mb-0" >গুরুত্বপূর্ণ লিংক</h5>
+            <img src="../assets/images/white-divider.png" alt="">
+            
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!"  >জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড (এনসিটিবি)</a>
+            </li>
+            <li>
+              <a href="#!"  >জাতীয় শিক্ষা ব্যবস্থাপনা একাডেমি (নায়েম)</a>
+            </li>
+            <li>
+              <a href="#"  >বাংলাদেশ শিক্ষাতথ্য ও পরিসংখ্যান ব্যুরো (ব্যানবেইস)</a>
+            </li>
+            <li>
+              <a href="#"  >মুক্তপাঠ</a>
+            </li>
+            <li>
+              <a href="#"  >কিশোর বাতায়ন</a>
+            </li>
+            <li>
+              <a href="#"  >মাল্টিমিডিয়া ক্লাসরুম মনিটরিং সিস্টেম</a>
+            </li>
+            <li>
+              <a href="#"  >এসডিজি ট্র্যাকার</a>
+            </li>
+          </ul>
+          <img src="../assets/images/google-play.png" class="mt-3"  height="35">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+<div class="bg-white">
+    <div class="container">
+      <div class="pb-0 py-2 row">
+        <div class="col-lg-4 col-md-2 py-0">
+          <p class="text-muted"> কপিরাইট © ২০২২ সর্বস্বত্ব সংরক্ষিত <br>গণপ্রজাতন্ত্রী বাংলাদেশ সরকার</p>
+        </div>
+        <div class="col-lg-4 col-md-2">
+         <img src="../assets/images/footer-logo-new.png" width="75%">
+        </div>
+        <div class="col-lg-4 col-md-2 text-end">
+         <p class="mb-0 text-muted"> কারিগরি সহযোগিতায় </p>
+         <p class=""><a href="#" class="text-muted"> সিএসটি</a></p>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+</div>
+<!-- footer end  -->
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
