@@ -416,7 +416,7 @@ footer *{
    padding: 20px 0 !important;
 }
 
-.newsTitle{
+.newsTitle ,.blogTitle{
   color: #8ac73e;
   text-align: justify;
   font-size: 22px;
@@ -430,3 +430,15 @@ footer *{
 }
 
 /*   news details end  */
+
+/* blog details start */
+
+
+.rounded-image {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+
+/* blog details end */
